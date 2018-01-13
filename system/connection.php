@@ -14,6 +14,6 @@ if($conn)
         echo "<script>alert('Database Tidak Ditemukan')</script>";
     }
 }else{
-    echo "Koneksi Gagal";
+    echo "<script>alert('Koneksi Gagal')</script>";
 }
 ?>
